@@ -1,0 +1,15 @@
+{
+  "name": "token-raffle-distributor",
+  "version": "1.0.0",
+  "description": "Code to distribute dai for raffle to matic holders",
+  "main": "index.js",
+  "author": "FloatCapital",
+  "license": "MIT",
+  "scripts": {
+    "distribute" : "node index.js"
+  },  
+  "dependencies": {
+    "ethers": "^5.4.6",
+    "hardhat": "^2.6.4"
+  }
+}
